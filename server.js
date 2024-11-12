@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, "public")));
 const JWT_SECRET = "0Wg11ndyhI+WpHVYSCT6jxrcC2OPabIcMf/4A8Ip7ug="; // Make this secure in production
 
 const db = mysql.createConnection({
-  host: "wadb.cvuia246gttf.eu-central-1.rds.amazonaws.com:3306",
+  host: "wadb.cvuia246gttf.eu-central-1.rds.amazonaws.com",
   user: "admin",
   password: "misterbigD",
   database: "wa_blog",
